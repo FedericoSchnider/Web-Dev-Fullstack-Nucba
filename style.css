@@ -675,6 +675,63 @@ ul .about-ayuria::before {
   cursor: pointer;
 }
 
+/* Footer*/
+
+.footer {
+  width: 100vw;
+  max-width: 100%;
+  height: 35vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  background-color: rgb(137, 180, 225);
+  padding-top: 1rem;
+  color: white;
+}
+
+.img-container {
+  max-width: 100%;
+  max-height: 100%;
+  width: 490px;
+  height: 200px;
+  background-image: url("assets/ayuria-logo-footer.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.footer-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 20%;
+  padding-left: 5rem;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.card-list li {
+  margin-bottom: 5px;
+}
+
+.card-list li::before {
+  content: none;
+}
+
+.card-list li:hover {
+  cursor: pointer;
+}
+
+.card-list li a {
+  font-size: 1.1rem;
+}
+
 /* MEDIA QUERIES ******************************************************/
 
 /* Tablet */
@@ -1206,5 +1263,67 @@ ul .about-ayuria::before {
     border-radius: 5px;
     padding: 5px 20px;
     cursor: pointer;
+  }
+
+  /* Footer*/
+
+  .footer {
+    width: 100vw;
+    max-width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background-color: rgb(137, 180, 225);
+    padding-top: 1rem;
+    color: white;
+    margin-top: 700px;
+    flex-wrap: wrap;
+  }
+
+  .img-container {
+    display: none;
+    max-width: 100%;
+    max-height: 100%;
+    width: 490px;
+    height: 200px;
+    background-image: url("assets/ayuria-logo-footer.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .footer-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    padding-left: 0;
+  }
+
+  .card-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .card-list li {
+    margin-bottom: 13px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .card-list li::before {
+    content: none;
+  }
+
+  .card-list li:hover {
+    cursor: pointer;
+  }
+
+  .card-list li a {
+    font-size: 1.2rem;
   }
 }
