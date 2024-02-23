@@ -5,12 +5,17 @@
   font-family: "Poppins", sans-serif;
   list-style: none;
   text-decoration: none;
+  scroll-behavior: smooth;
 }
 
 /* Navbar */
 
 header img {
   width: 200px;
+}
+
+header img:hover {
+  cursor: pointer;
 }
 
 .header {
@@ -730,6 +735,7 @@ ul .about-ayuria::before {
 
 .card-list li a {
   font-size: 1.1rem;
+  color: white;
 }
 
 /* MEDIA QUERIES ******************************************************/

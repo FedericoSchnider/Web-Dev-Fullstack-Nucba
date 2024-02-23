@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="login-register.css" />
+    <link rel="stylesheet" href="register.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&family=Libre+Baskerville&family=Poppins:wght@300;400;500;600;700;800&family=Raleway:wght@400;800&family=Roboto&family=Sono:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="assets/ayuria-favicon.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <title>Registro</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header class="header">
+      <a href="index.html"><img src="assets/ayuria-logo.png" alt="logo"/></a>
+      <nav class="navbar">
+        <label for="toggle-menu">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+        <input type="checkbox" id="toggle-menu" />
+        <ul class="navbar-list">
+          <li class="home-li"><a href="index.html" class="navbar-link">Home</a></li>
+          <li><a href="login.html" class="navbar-link">Login</a></li>
+          <li><a href="#" class="navbar-link">Registro</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- Section 1 -> Hero -->
+      <section class="section-hero" id="home">
+        <div class="hero-text">
+          <h1>Uniendo Corazones</h1>
+          <p>Conectamos lo que más querés con los que más requieren</p>
+          <button href="#">Doná Ahora</button>
+        </div>
+      </section>
+  <!-- Section 2 -> Form -->
+      <section class="form-container">
+        <div class="container-box">
+          <h2>Registro</h2>
+          <form class="form" action="send">
+            <label for="number">Número telefónico</label>
+            <input type="number" required name="number" id="email" placeholder="Escriba su número telefónico">
+            <label for="email">Email</label>
+            <input type="email" name="email" required id="email" placeholder="Escriba su email">
+            <label for="password">Contraseña</label>
+            <input type="password" name="password" required id="password" placeholder="Escriba su contraseña">
+            <label for="re-password">Contraseña nuevamente</label>
+            <input type="password" name="re-password" required id="re-password" placeholder="Repita su contraseña">
+            <button>Finalizar</button>
+          </form>
+          <div class="other-register-container">
+            <p>O regístrese con</p>
+            <div>
+              <a href="http://google.com"><i class="fa-brands fa-google iconic"></i></a>
+              <a href="http://facebook.com"><i class="fa-brands fa-facebook iconic"></i></a>
+              <a href="http://twitter.com"><i class="fa-brands fa-twitter iconic"></i></a>
+            </div>
+          </div>
+        </div>
+      </section> 
+      <footer class="footer" id="utiles">
+        <div class="img-container"></div>
+        <div class="footer-card">
+          <h4 class="card-title">Navegación</h4>
+          <ul class="card-list">
+            <li><a href="index.html#home">Home</a></li>
+            <li><a href="index.html#about-sobre-ayuria">Quiénes somos</a></li>
+            <li><a href="index.html#programas">Programas</a></li>
+            <li><a href="index.html#equipo">Equipo</a></li>
+            <li><a href="index.html#contacto">Contacto</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="#">Registro</a></li>
+          </ul>
+        </div>
+        <div class="footer-card">
+          <h4 class="card-title">Recursos</h4>
+          <ul class="card-list">
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Libros</a></li>
+            <li><a href="#">Base de conocimiento</a></li>
+            <li><a href="#">Programa de afiliados</a></li>
+            <li><a href="#">Socios estratégicos</a></li>
+          </ul>
+        </div>
+        <div class="footer-card">
+          <h4 class="card-title">Más</h4>
+          <ul class="card-list">
+            <li><a href="#">Seguridad</a></li>
+            <li><a href="#">Aplicación móvil</a></li>
+            <li><a href="#">Nuestras oficinas</a></li>
+            <li><a href="#">Trabajá con nosotros</a></li>
+            <li><a href="#">Inversores</a></li>
+            <li><a href="#">Centro de ayuda</a></li>
+          </ul>
+        </div>
+      </footer>
+  </body>
+</html>

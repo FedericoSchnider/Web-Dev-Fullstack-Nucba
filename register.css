@@ -1,0 +1,105 @@
+.home-li::before {
+  content: none;
+}
+
+footer {
+  margin-top: 80px;
+  padding-top: 50px;
+}
+
+.form-container {
+  display: block;
+  position: absolute;
+  top: 125px;
+  left: 450px;
+  height: 650px;
+  width: 400px;
+  background-color: rgb(255, 255, 255, 0.8);
+  border-radius: 5%;
+  padding: 30px;
+}
+
+.container-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  gap: 5%;
+}
+
+.container-box h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 15px;
+}
+
+.form label {
+  align-self: flex-start;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.form input {
+  align-self: flex-start;
+  border: none;
+  border-bottom: 1px solid grey;
+  background-color: rgb(255, 255, 255, 0.1);
+  width: 100%;
+  font-size: 1rem;
+}
+
+.form a {
+  align-self: flex-end;
+  font-size: 0.8rem;
+}
+
+.form button {
+  width: 100%;
+  border-radius: 30px;
+  background-color: rgb(2, 156, 210);
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+  padding: 5px;
+  margin-top: 15px;
+}
+
+.form button:hover {
+  cursor: pointer;
+  background-color: rgb(9, 144, 15);
+  color: white;
+  transition: all 0.2s ease-in-out;
+}
+
+.other-register-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 75px;
+  gap: 20px;
+}
+
+.other-register-container div {
+  width: 100%;
+  gap: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.other-register-container i {
+  font-size: 3rem;
+  cursor: pointer;
+}
