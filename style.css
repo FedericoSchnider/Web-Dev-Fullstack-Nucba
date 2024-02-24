@@ -353,6 +353,7 @@ ul .about-ayuria::before {
   border-radius: 5px;
   transition: all 0.2s ease-in-out;
   border: 1px solid rgb(221, 0, 0, 0.9);
+  cursor: pointer;
 }
 
 /* Section 4 -> Team */
@@ -637,6 +638,10 @@ ul .about-ayuria::before {
   flex-direction: row;
   justify-content: space-between;
   color: rgb(60, 104, 165);
+}
+
+.red-icon-list i:hover {
+  cursor: pointer;
 }
 
 .list-red p {
