@@ -107,3 +107,26 @@ footer {
 .iconic {
   color: black;
 }
+
+@media (max-width: 775px) {
+  .hero-text {
+    display: none;
+  }
+
+  .form-container {
+    display: block;
+    position: absolute;
+    top: 120px;
+    left: 172px;
+    height: 700px;
+    width: 425px;
+    background-color: rgb(255, 255, 255, 0.8);
+    border-radius: 5%;
+    padding: 65px;
+  }
+
+  .footer {
+    padding-top: 50px;
+    margin-top: 80px;
+  }
+}

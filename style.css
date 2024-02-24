@@ -748,8 +748,6 @@ ul .about-ayuria::before {
 /* Tablet */
 
 @media (max-width: 775px) {
-  /* Navbar */
-
   body {
     overflow-x: hidden;
   }
